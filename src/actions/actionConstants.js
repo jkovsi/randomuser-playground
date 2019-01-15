@@ -1,5 +1,2 @@
 export const GET_USERS = "GET_USERS";
-export const CHANGE_GENDER = "CHANGE_GENDER";
-export const FILTER_YOUNGER = "FILTER_YOUNGER";
-export const FILTER_OLDER = "FILTER_OLDER";
-export const FILTER_GENDER = "FILTER_TITLE";
+export const FILTER_GENDER = "FILTER_GENDER";
