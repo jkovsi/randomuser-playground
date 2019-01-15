@@ -1,7 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { getUsers, filterGender } from "../actions/action_creators/index";
-import shortid from "shortid";
+import { filterGender } from "../actions/action_creators/index";
 
 class Filter extends React.Component {
   render() {

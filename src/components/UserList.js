@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import getUsers, { genders } from "../actions/action_creators/index";
+import getUsers from "../actions/action_creators/index";
 import shortid from "shortid";
 
 class UserList extends React.Component {

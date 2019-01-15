@@ -27625,11 +27625,9 @@ var _react = _interopRequireDefault(require("react"));
 
 var _reactRedux = require("react-redux");
 
-var _index = _interopRequireWildcard(require("../actions/action_creators/index"));
+var _index = _interopRequireDefault(require("../actions/action_creators/index"));
 
 var _shortid = _interopRequireDefault(require("shortid"));
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -27722,8 +27720,6 @@ var _reactRedux = require("react-redux");
 
 var _index = require("../actions/action_creators/index");
 
-var _shortid = _interopRequireDefault(require("shortid"));
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -27796,7 +27792,7 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 var _default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(Filter);
 
 exports.default = _default;
-},{"react":"../../../node_modules/react/index.js","react-redux":"../../../node_modules/react-redux/es/index.js","../actions/action_creators/index":"src/actions/action_creators/index.js","shortid":"../../../node_modules/shortid/index.js"}],"src/components/App.js":[function(require,module,exports) {
+},{"react":"../../../node_modules/react/index.js","react-redux":"../../../node_modules/react-redux/es/index.js","../actions/action_creators/index":"src/actions/action_creators/index.js"}],"src/components/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {

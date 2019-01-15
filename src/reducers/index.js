@@ -1,9 +1,4 @@
-import {
-  FILTER_OLDER,
-  FILTER_YOUNGER,
-  GET_USERS,
-  FILTER_GENDER
-} from "../actions/actionConstants";
+import { GET_USERS, FILTER_GENDER } from "../actions/actionConstants";
 
 const initialState = {
   results: [],
