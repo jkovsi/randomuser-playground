@@ -16,6 +16,7 @@ class Filter extends React.Component {
             placeholder="Gender"
           >
             <option />
+            <option value="all">all</option>
             <option value="male">male</option>
             <option value="female">female</option>
           </select>

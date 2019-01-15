@@ -104,7 +104,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"../../node_modules/object-assign/index.js":[function(require,module,exports) {
+})({"../../../node_modules/object-assign/index.js":[function(require,module,exports) {
 /*
 object-assign
 (c) Sindre Sorhus
@@ -200,7 +200,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
   return to;
 };
-},{}],"../../node_modules/prop-types/lib/ReactPropTypesSecret.js":[function(require,module,exports) {
+},{}],"../../../node_modules/prop-types/lib/ReactPropTypesSecret.js":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -214,7 +214,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
 module.exports = ReactPropTypesSecret;
 
-},{}],"../../node_modules/prop-types/checkPropTypes.js":[function(require,module,exports) {
+},{}],"../../../node_modules/prop-types/checkPropTypes.js":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -297,7 +297,7 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 }
 
 module.exports = checkPropTypes;
-},{"./lib/ReactPropTypesSecret":"../../node_modules/prop-types/lib/ReactPropTypesSecret.js"}],"../../node_modules/react/cjs/react.development.js":[function(require,module,exports) {
+},{"./lib/ReactPropTypesSecret":"../../../node_modules/prop-types/lib/ReactPropTypesSecret.js"}],"../../../node_modules/react/cjs/react.development.js":[function(require,module,exports) {
 /** @license React v16.7.0
  * react.development.js
  *
@@ -2203,7 +2203,7 @@ if ("development" !== "production") {
     module.exports = react;
   })();
 }
-},{"object-assign":"../../node_modules/object-assign/index.js","prop-types/checkPropTypes":"../../node_modules/prop-types/checkPropTypes.js"}],"../../node_modules/react/index.js":[function(require,module,exports) {
+},{"object-assign":"../../../node_modules/object-assign/index.js","prop-types/checkPropTypes":"../../../node_modules/prop-types/checkPropTypes.js"}],"../../../node_modules/react/index.js":[function(require,module,exports) {
 'use strict';
 
 if ("development" === 'production') {
@@ -2211,7 +2211,7 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react.development.js');
 }
-},{"./cjs/react.development.js":"../../node_modules/react/cjs/react.development.js"}],"../../node_modules/scheduler/cjs/scheduler.development.js":[function(require,module,exports) {
+},{"./cjs/react.development.js":"../../../node_modules/react/cjs/react.development.js"}],"../../../node_modules/scheduler/cjs/scheduler.development.js":[function(require,module,exports) {
 var global = arguments[3];
 /** @license React v0.12.0
  * scheduler.development.js
@@ -2909,7 +2909,7 @@ if ("development" !== "production") {
     exports.unstable_getFirstCallbackNode = unstable_getFirstCallbackNode;
   })();
 }
-},{}],"../../node_modules/scheduler/index.js":[function(require,module,exports) {
+},{}],"../../../node_modules/scheduler/index.js":[function(require,module,exports) {
 'use strict';
 
 if ("development" === 'production') {
@@ -2917,7 +2917,7 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/scheduler.development.js');
 }
-},{"./cjs/scheduler.development.js":"../../node_modules/scheduler/cjs/scheduler.development.js"}],"../../node_modules/scheduler/cjs/scheduler-tracing.development.js":[function(require,module,exports) {
+},{"./cjs/scheduler.development.js":"../../../node_modules/scheduler/cjs/scheduler.development.js"}],"../../../node_modules/scheduler/cjs/scheduler-tracing.development.js":[function(require,module,exports) {
 /** @license React v0.12.0
  * scheduler-tracing.development.js
  *
@@ -3305,7 +3305,7 @@ if ("development" !== "production") {
     exports.unstable_unsubscribe = unstable_unsubscribe;
   })();
 }
-},{}],"../../node_modules/scheduler/tracing.js":[function(require,module,exports) {
+},{}],"../../../node_modules/scheduler/tracing.js":[function(require,module,exports) {
 'use strict';
 
 if ("development" === 'production') {
@@ -3313,7 +3313,7 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/scheduler-tracing.development.js');
 }
-},{"./cjs/scheduler-tracing.development.js":"../../node_modules/scheduler/cjs/scheduler-tracing.development.js"}],"../../node_modules/react-dom/cjs/react-dom.development.js":[function(require,module,exports) {
+},{"./cjs/scheduler-tracing.development.js":"../../../node_modules/scheduler/cjs/scheduler-tracing.development.js"}],"../../../node_modules/react-dom/cjs/react-dom.development.js":[function(require,module,exports) {
 /** @license React v16.7.0
  * react-dom.development.js
  *
@@ -24444,7 +24444,7 @@ if ("development" !== "production") {
     module.exports = reactDom;
   })();
 }
-},{"react":"../../node_modules/react/index.js","object-assign":"../../node_modules/object-assign/index.js","prop-types/checkPropTypes":"../../node_modules/prop-types/checkPropTypes.js","scheduler":"../../node_modules/scheduler/index.js","scheduler/tracing":"../../node_modules/scheduler/tracing.js"}],"../../node_modules/react-dom/index.js":[function(require,module,exports) {
+},{"react":"../../../node_modules/react/index.js","object-assign":"../../../node_modules/object-assign/index.js","prop-types/checkPropTypes":"../../../node_modules/prop-types/checkPropTypes.js","scheduler":"../../../node_modules/scheduler/index.js","scheduler/tracing":"../../../node_modules/scheduler/tracing.js"}],"../../../node_modules/react-dom/index.js":[function(require,module,exports) {
 'use strict';
 
 function checkDCE() {
@@ -24482,7 +24482,7 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react-dom.development.js');
 }
-},{"./cjs/react-dom.development.js":"../../node_modules/react-dom/cjs/react-dom.development.js"}],"../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/inheritsLoose.js":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"../../../node_modules/react-dom/cjs/react-dom.development.js"}],"../../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/inheritsLoose.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -24495,7 +24495,7 @@ function _inheritsLoose(subClass, superClass) {
   subClass.prototype.constructor = subClass;
   subClass.__proto__ = superClass;
 }
-},{}],"../../node_modules/prop-types/factoryWithTypeCheckers.js":[function(require,module,exports) {
+},{}],"../../../node_modules/prop-types/factoryWithTypeCheckers.js":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -25098,7 +25098,7 @@ module.exports = function (isValidElement, throwOnDirectAccess) {
   ReactPropTypes.PropTypes = ReactPropTypes;
   return ReactPropTypes;
 };
-},{"object-assign":"../../node_modules/object-assign/index.js","./lib/ReactPropTypesSecret":"../../node_modules/prop-types/lib/ReactPropTypesSecret.js","./checkPropTypes":"../../node_modules/prop-types/checkPropTypes.js"}],"../../node_modules/prop-types/index.js":[function(require,module,exports) {
+},{"object-assign":"../../../node_modules/object-assign/index.js","./lib/ReactPropTypesSecret":"../../../node_modules/prop-types/lib/ReactPropTypesSecret.js","./checkPropTypes":"../../../node_modules/prop-types/checkPropTypes.js"}],"../../../node_modules/prop-types/index.js":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -25121,7 +25121,7 @@ if ("development" !== 'production') {
   // http://fb.me/prop-types-in-prod
   module.exports = require('./factoryWithThrowingShims')();
 }
-},{"./factoryWithTypeCheckers":"../../node_modules/prop-types/factoryWithTypeCheckers.js"}],"../../node_modules/react-redux/es/components/Context.js":[function(require,module,exports) {
+},{"./factoryWithTypeCheckers":"../../../node_modules/prop-types/factoryWithTypeCheckers.js"}],"../../../node_modules/react-redux/es/components/Context.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -25138,7 +25138,7 @@ var ReactReduxContext = _react.default.createContext(null);
 exports.ReactReduxContext = ReactReduxContext;
 var _default = ReactReduxContext;
 exports.default = _default;
-},{"react":"../../node_modules/react/index.js"}],"../../node_modules/react-redux/es/components/Provider.js":[function(require,module,exports) {
+},{"react":"../../../node_modules/react/index.js"}],"../../../node_modules/react-redux/es/components/Provider.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -25247,7 +25247,7 @@ Provider.propTypes = {
 };
 var _default = Provider;
 exports.default = _default;
-},{"@babel/runtime/helpers/esm/inheritsLoose":"../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/inheritsLoose.js","react":"../../node_modules/react/index.js","prop-types":"../../node_modules/prop-types/index.js","./Context":"../../node_modules/react-redux/es/components/Context.js"}],"../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/inheritsLoose":"../../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/inheritsLoose.js","react":"../../../node_modules/react/index.js","prop-types":"../../../node_modules/prop-types/index.js","./Context":"../../../node_modules/react-redux/es/components/Context.js"}],"../../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -25262,7 +25262,7 @@ function _assertThisInitialized(self) {
 
   return self;
 }
-},{}],"../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/extends.js":[function(require,module,exports) {
+},{}],"../../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/extends.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -25287,7 +25287,7 @@ function _extends() {
 
   return _extends.apply(this, arguments);
 }
-},{}],"../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js":[function(require,module,exports) {
+},{}],"../../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -25309,7 +25309,7 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 
   return target;
 }
-},{}],"../../node_modules/react-is/cjs/react-is.development.js":[function(require,module,exports) {
+},{}],"../../../node_modules/react-is/cjs/react-is.development.js":[function(require,module,exports) {
 /** @license React v16.7.0
  * react-is.development.js
  *
@@ -25550,7 +25550,7 @@ if ("development" !== "production") {
     exports.isSuspense = isSuspense;
   })();
 }
-},{}],"../../node_modules/react-is/index.js":[function(require,module,exports) {
+},{}],"../../../node_modules/react-is/index.js":[function(require,module,exports) {
 'use strict';
 
 if ("development" === 'production') {
@@ -25558,7 +25558,7 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react-is.development.js');
 }
-},{"./cjs/react-is.development.js":"../../node_modules/react-is/cjs/react-is.development.js"}],"../../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js":[function(require,module,exports) {
+},{"./cjs/react-is.development.js":"../../../node_modules/react-is/cjs/react-is.development.js"}],"../../../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js":[function(require,module,exports) {
 'use strict';
 
 /**
@@ -25647,7 +25647,7 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 
 module.exports = hoistNonReactStatics;
 
-},{"react-is":"../../node_modules/react-is/index.js"}],"../../node_modules/invariant/browser.js":[function(require,module,exports) {
+},{"react-is":"../../../node_modules/react-is/index.js"}],"../../../node_modules/invariant/browser.js":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -25694,7 +25694,7 @@ var invariant = function (condition, format, a, b, c, d, e, f) {
 };
 
 module.exports = invariant;
-},{}],"../../node_modules/react-redux/es/components/connectAdvanced.js":[function(require,module,exports) {
+},{}],"../../../node_modules/react-redux/es/components/connectAdvanced.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -25900,7 +25900,7 @@ _ref) {
     return (0, _hoistNonReactStatics.default)(Connect, WrappedComponent);
   };
 }
-},{"@babel/runtime/helpers/esm/inheritsLoose":"../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/inheritsLoose.js","@babel/runtime/helpers/esm/assertThisInitialized":"../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js","@babel/runtime/helpers/esm/extends":"../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/extends.js","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js","hoist-non-react-statics":"../../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js","invariant":"../../node_modules/invariant/browser.js","react":"../../node_modules/react/index.js","react-is":"../../node_modules/react-is/index.js","./Context":"../../node_modules/react-redux/es/components/Context.js"}],"../../node_modules/react-redux/es/utils/shallowEqual.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/inheritsLoose":"../../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/inheritsLoose.js","@babel/runtime/helpers/esm/assertThisInitialized":"../../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js","@babel/runtime/helpers/esm/extends":"../../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/extends.js","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"../../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js","hoist-non-react-statics":"../../../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js","invariant":"../../../node_modules/invariant/browser.js","react":"../../../node_modules/react/index.js","react-is":"../../../node_modules/react-is/index.js","./Context":"../../../node_modules/react-redux/es/components/Context.js"}],"../../../node_modules/react-redux/es/utils/shallowEqual.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -25936,7 +25936,7 @@ function shallowEqual(objA, objB) {
 
   return true;
 }
-},{}],"../../node_modules/symbol-observable/es/ponyfill.js":[function(require,module,exports) {
+},{}],"../../../node_modules/symbol-observable/es/ponyfill.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -25963,7 +25963,7 @@ function symbolObservablePonyfill(root) {
 }
 
 ;
-},{}],"../../node_modules/symbol-observable/es/index.js":[function(require,module,exports) {
+},{}],"../../../node_modules/symbol-observable/es/index.js":[function(require,module,exports) {
 var global = arguments[3];
 "use strict";
 
@@ -25994,7 +25994,7 @@ if (typeof self !== 'undefined') {
 var result = (0, _ponyfill.default)(root);
 var _default = result;
 exports.default = _default;
-},{"./ponyfill.js":"../../node_modules/symbol-observable/es/ponyfill.js"}],"../../node_modules/redux/es/redux.js":[function(require,module,exports) {
+},{"./ponyfill.js":"../../../node_modules/symbol-observable/es/ponyfill.js"}],"../../../node_modules/redux/es/redux.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -26647,7 +26647,7 @@ function isCrushed() {}
 if ("development" !== 'production' && typeof isCrushed.name === 'string' && isCrushed.name !== 'isCrushed') {
   warning('You are currently using minified code outside of NODE_ENV === "production". ' + 'This means that you are running a slower development build of Redux. ' + 'You can use loose-envify (https://github.com/zertosh/loose-envify) for browserify ' + 'or setting mode to production in webpack (https://webpack.js.org/concepts/mode/) ' + 'to ensure you have the correct code for your production build.');
 }
-},{"symbol-observable":"../../node_modules/symbol-observable/es/index.js"}],"../../node_modules/react-redux/es/utils/isPlainObject.js":[function(require,module,exports) {
+},{"symbol-observable":"../../../node_modules/symbol-observable/es/index.js"}],"../../../node_modules/react-redux/es/utils/isPlainObject.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -26671,7 +26671,7 @@ function isPlainObject(obj) {
 
   return proto === baseProto;
 }
-},{}],"../../node_modules/react-redux/es/utils/warning.js":[function(require,module,exports) {
+},{}],"../../../node_modules/react-redux/es/utils/warning.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -26703,7 +26703,7 @@ function warning(message) {
   /* eslint-enable no-empty */
 
 }
-},{}],"../../node_modules/react-redux/es/utils/verifyPlainObject.js":[function(require,module,exports) {
+},{}],"../../../node_modules/react-redux/es/utils/verifyPlainObject.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -26722,7 +26722,7 @@ function verifyPlainObject(value, displayName, methodName) {
     (0, _warning.default)(methodName + "() in " + displayName + " must return a plain object. Instead received " + value + ".");
   }
 }
-},{"./isPlainObject":"../../node_modules/react-redux/es/utils/isPlainObject.js","./warning":"../../node_modules/react-redux/es/utils/warning.js"}],"../../node_modules/react-redux/es/connect/wrapMapToProps.js":[function(require,module,exports) {
+},{"./isPlainObject":"../../../node_modules/react-redux/es/utils/isPlainObject.js","./warning":"../../../node_modules/react-redux/es/utils/warning.js"}],"../../../node_modules/react-redux/es/connect/wrapMapToProps.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -26801,7 +26801,7 @@ function wrapMapToPropsFunc(mapToProps, methodName) {
     return proxy;
   };
 }
-},{"../utils/verifyPlainObject":"../../node_modules/react-redux/es/utils/verifyPlainObject.js"}],"../../node_modules/react-redux/es/connect/mapDispatchToProps.js":[function(require,module,exports) {
+},{"../utils/verifyPlainObject":"../../../node_modules/react-redux/es/utils/verifyPlainObject.js"}],"../../../node_modules/react-redux/es/connect/mapDispatchToProps.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -26836,7 +26836,7 @@ function whenMapDispatchToPropsIsObject(mapDispatchToProps) {
 
 var _default = [whenMapDispatchToPropsIsFunction, whenMapDispatchToPropsIsMissing, whenMapDispatchToPropsIsObject];
 exports.default = _default;
-},{"redux":"../../node_modules/redux/es/redux.js","./wrapMapToProps":"../../node_modules/react-redux/es/connect/wrapMapToProps.js"}],"../../node_modules/react-redux/es/connect/mapStateToProps.js":[function(require,module,exports) {
+},{"redux":"../../../node_modules/redux/es/redux.js","./wrapMapToProps":"../../../node_modules/react-redux/es/connect/wrapMapToProps.js"}],"../../../node_modules/react-redux/es/connect/mapStateToProps.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -26860,7 +26860,7 @@ function whenMapStateToPropsIsMissing(mapStateToProps) {
 
 var _default = [whenMapStateToPropsIsFunction, whenMapStateToPropsIsMissing];
 exports.default = _default;
-},{"./wrapMapToProps":"../../node_modules/react-redux/es/connect/wrapMapToProps.js"}],"../../node_modules/react-redux/es/connect/mergeProps.js":[function(require,module,exports) {
+},{"./wrapMapToProps":"../../../node_modules/react-redux/es/connect/wrapMapToProps.js"}],"../../../node_modules/react-redux/es/connect/mergeProps.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -26917,7 +26917,7 @@ function whenMergePropsIsOmitted(mergeProps) {
 
 var _default = [whenMergePropsIsFunction, whenMergePropsIsOmitted];
 exports.default = _default;
-},{"@babel/runtime/helpers/esm/extends":"../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/extends.js","../utils/verifyPlainObject":"../../node_modules/react-redux/es/utils/verifyPlainObject.js"}],"../../node_modules/react-redux/es/connect/verifySubselectors.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"../../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/extends.js","../utils/verifyPlainObject":"../../../node_modules/react-redux/es/utils/verifyPlainObject.js"}],"../../../node_modules/react-redux/es/connect/verifySubselectors.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -26944,7 +26944,7 @@ function verifySubselectors(mapStateToProps, mapDispatchToProps, mergeProps, dis
   verify(mapDispatchToProps, 'mapDispatchToProps', displayName);
   verify(mergeProps, 'mergeProps', displayName);
 }
-},{"../utils/warning":"../../node_modules/react-redux/es/utils/warning.js"}],"../../node_modules/react-redux/es/connect/selectorFactory.js":[function(require,module,exports) {
+},{"../utils/warning":"../../../node_modules/react-redux/es/utils/warning.js"}],"../../../node_modules/react-redux/es/connect/selectorFactory.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -27046,7 +27046,7 @@ function finalPropsSelectorFactory(dispatch, _ref2) {
   var selectorFactory = options.pure ? pureFinalPropsSelectorFactory : impureFinalPropsSelectorFactory;
   return selectorFactory(mapStateToProps, mapDispatchToProps, mergeProps, dispatch, options);
 }
-},{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js","./verifySubselectors":"../../node_modules/react-redux/es/connect/verifySubselectors.js"}],"../../node_modules/react-redux/es/connect/connect.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"../../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js","./verifySubselectors":"../../../node_modules/react-redux/es/connect/verifySubselectors.js"}],"../../../node_modules/react-redux/es/connect/connect.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -27164,7 +27164,7 @@ function createConnect(_temp) {
 var _default = createConnect();
 
 exports.default = _default;
-},{"@babel/runtime/helpers/esm/extends":"../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/extends.js","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js","../components/connectAdvanced":"../../node_modules/react-redux/es/components/connectAdvanced.js","../utils/shallowEqual":"../../node_modules/react-redux/es/utils/shallowEqual.js","./mapDispatchToProps":"../../node_modules/react-redux/es/connect/mapDispatchToProps.js","./mapStateToProps":"../../node_modules/react-redux/es/connect/mapStateToProps.js","./mergeProps":"../../node_modules/react-redux/es/connect/mergeProps.js","./selectorFactory":"../../node_modules/react-redux/es/connect/selectorFactory.js"}],"../../node_modules/react-redux/es/index.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"../../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/extends.js","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"../../../node_modules/react-redux/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js","../components/connectAdvanced":"../../../node_modules/react-redux/es/components/connectAdvanced.js","../utils/shallowEqual":"../../../node_modules/react-redux/es/utils/shallowEqual.js","./mapDispatchToProps":"../../../node_modules/react-redux/es/connect/mapDispatchToProps.js","./mapStateToProps":"../../../node_modules/react-redux/es/connect/mapStateToProps.js","./mergeProps":"../../../node_modules/react-redux/es/connect/mergeProps.js","./selectorFactory":"../../../node_modules/react-redux/es/connect/selectorFactory.js"}],"../../../node_modules/react-redux/es/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -27204,22 +27204,16 @@ var _Context = require("./components/Context");
 var _connect = _interopRequireDefault(require("./connect/connect"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./components/Provider":"../../node_modules/react-redux/es/components/Provider.js","./components/connectAdvanced":"../../node_modules/react-redux/es/components/connectAdvanced.js","./components/Context":"../../node_modules/react-redux/es/components/Context.js","./connect/connect":"../../node_modules/react-redux/es/connect/connect.js"}],"src/actions/actionConstants.js":[function(require,module,exports) {
+},{"./components/Provider":"../../../node_modules/react-redux/es/components/Provider.js","./components/connectAdvanced":"../../../node_modules/react-redux/es/components/connectAdvanced.js","./components/Context":"../../../node_modules/react-redux/es/components/Context.js","./connect/connect":"../../../node_modules/react-redux/es/connect/connect.js"}],"src/actions/actionConstants.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.FILTER_GENDER = exports.FILTER_OLDER = exports.FILTER_YOUNGER = exports.CHANGE_GENDER = exports.GET_USERS = void 0;
+exports.FILTER_GENDER = exports.GET_USERS = void 0;
 var GET_USERS = "GET_USERS";
 exports.GET_USERS = GET_USERS;
-var CHANGE_GENDER = "CHANGE_GENDER";
-exports.CHANGE_GENDER = CHANGE_GENDER;
-var FILTER_YOUNGER = "FILTER_YOUNGER";
-exports.FILTER_YOUNGER = FILTER_YOUNGER;
-var FILTER_OLDER = "FILTER_OLDER";
-exports.FILTER_OLDER = FILTER_OLDER;
-var FILTER_GENDER = "FILTER_TITLE";
+var FILTER_GENDER = "FILTER_GENDER";
 exports.FILTER_GENDER = FILTER_GENDER;
 },{}],"src/actions/action_creators/index.js":[function(require,module,exports) {
 "use strict";
@@ -27255,7 +27249,7 @@ var filterGender = function filterGender(gender) {
 };
 
 exports.filterGender = filterGender;
-},{"../actionConstants":"src/actions/actionConstants.js"}],"../../node_modules/shortid/lib/random/random-from-seed.js":[function(require,module,exports) {
+},{"../actionConstants":"src/actions/actionConstants.js"}],"../../../node_modules/shortid/lib/random/random-from-seed.js":[function(require,module,exports) {
 'use strict';
 
 // Found this seed-based random generator somewhere
@@ -27282,7 +27276,7 @@ module.exports = {
     seed: setSeed
 };
 
-},{}],"../../node_modules/shortid/lib/alphabet.js":[function(require,module,exports) {
+},{}],"../../../node_modules/shortid/lib/alphabet.js":[function(require,module,exports) {
 'use strict';
 
 var randomFromSeed = require('./random/random-from-seed');
@@ -27387,17 +27381,17 @@ module.exports = {
     shuffled: getShuffled
 };
 
-},{"./random/random-from-seed":"../../node_modules/shortid/lib/random/random-from-seed.js"}],"../../node_modules/nanoid/random.browser.js":[function(require,module,exports) {
+},{"./random/random-from-seed":"../../../node_modules/shortid/lib/random/random-from-seed.js"}],"../../../node_modules/nanoid/random.browser.js":[function(require,module,exports) {
 var crypto = self.crypto || self.msCrypto
 
 module.exports = function (bytes) {
   return crypto.getRandomValues(new Uint8Array(bytes))
 }
 
-},{}],"../../node_modules/shortid/lib/random/random-byte.js":[function(require,module,exports) {
+},{}],"../../../node_modules/shortid/lib/random/random-byte.js":[function(require,module,exports) {
 module.exports = require('nanoid/random');
 
-},{"nanoid/random":"../../node_modules/nanoid/random.browser.js"}],"../../node_modules/nanoid/format.js":[function(require,module,exports) {
+},{"nanoid/random":"../../../node_modules/nanoid/random.browser.js"}],"../../../node_modules/nanoid/format.js":[function(require,module,exports) {
 /**
  * Secure random string generator with custom alphabet.
  *
@@ -27449,7 +27443,7 @@ module.exports = function (random, alphabet, size) {
  * @return {number[]} Random bytes.
  */
 
-},{}],"../../node_modules/shortid/lib/generate.js":[function(require,module,exports) {
+},{}],"../../../node_modules/shortid/lib/generate.js":[function(require,module,exports) {
 'use strict';
 
 var alphabet = require('./alphabet');
@@ -27472,7 +27466,7 @@ function generate(number) {
 
 module.exports = generate;
 
-},{"./alphabet":"../../node_modules/shortid/lib/alphabet.js","./random/random-byte":"../../node_modules/shortid/lib/random/random-byte.js","nanoid/format":"../../node_modules/nanoid/format.js"}],"../../node_modules/shortid/lib/build.js":[function(require,module,exports) {
+},{"./alphabet":"../../../node_modules/shortid/lib/alphabet.js","./random/random-byte":"../../../node_modules/shortid/lib/random/random-byte.js","nanoid/format":"../../../node_modules/nanoid/format.js"}],"../../../node_modules/shortid/lib/build.js":[function(require,module,exports) {
 'use strict';
 
 var generate = require('./generate');
@@ -27520,7 +27514,7 @@ function build(clusterWorkerId) {
 
 module.exports = build;
 
-},{"./generate":"../../node_modules/shortid/lib/generate.js","./alphabet":"../../node_modules/shortid/lib/alphabet.js"}],"../../node_modules/shortid/lib/is-valid.js":[function(require,module,exports) {
+},{"./generate":"../../../node_modules/shortid/lib/generate.js","./alphabet":"../../../node_modules/shortid/lib/alphabet.js"}],"../../../node_modules/shortid/lib/is-valid.js":[function(require,module,exports) {
 'use strict';
 var alphabet = require('./alphabet');
 
@@ -27537,9 +27531,9 @@ function isShortId(id) {
 
 module.exports = isShortId;
 
-},{"./alphabet":"../../node_modules/shortid/lib/alphabet.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/_empty.js":[function(require,module,exports) {
+},{"./alphabet":"../../../node_modules/shortid/lib/alphabet.js"}],"node_modules/parcel-bundler/src/builtins/_empty.js":[function(require,module,exports) {
 
-},{}],"../../node_modules/shortid/lib/util/cluster-worker-id.js":[function(require,module,exports) {
+},{}],"../../../node_modules/shortid/lib/util/cluster-worker-id.js":[function(require,module,exports) {
 'use strict';
 
 var cluster = require('cluster');
@@ -27551,7 +27545,7 @@ if (!cluster.isMaster && cluster.worker) {
 }
 
 module.exports = parseInt(undefined || clusterId, 10);
-},{"cluster":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/_empty.js"}],"../../node_modules/shortid/lib/index.js":[function(require,module,exports) {
+},{"cluster":"node_modules/parcel-bundler/src/builtins/_empty.js"}],"../../../node_modules/shortid/lib/index.js":[function(require,module,exports) {
 'use strict';
 
 var alphabet = require('./alphabet');
@@ -27615,11 +27609,11 @@ module.exports.worker = worker;
 module.exports.characters = characters;
 module.exports.isValid = isValid;
 
-},{"./alphabet":"../../node_modules/shortid/lib/alphabet.js","./build":"../../node_modules/shortid/lib/build.js","./is-valid":"../../node_modules/shortid/lib/is-valid.js","./util/cluster-worker-id":"../../node_modules/shortid/lib/util/cluster-worker-id.js"}],"../../node_modules/shortid/index.js":[function(require,module,exports) {
+},{"./alphabet":"../../../node_modules/shortid/lib/alphabet.js","./build":"../../../node_modules/shortid/lib/build.js","./is-valid":"../../../node_modules/shortid/lib/is-valid.js","./util/cluster-worker-id":"../../../node_modules/shortid/lib/util/cluster-worker-id.js"}],"../../../node_modules/shortid/index.js":[function(require,module,exports) {
 'use strict';
 module.exports = require('./lib/index');
 
-},{"./lib/index":"../../node_modules/shortid/lib/index.js"}],"src/components/UserList.js":[function(require,module,exports) {
+},{"./lib/index":"../../../node_modules/shortid/lib/index.js"}],"src/components/UserList.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -27714,7 +27708,7 @@ var _default = (0, _reactRedux.connect)(mapStateToProps, {
 })(UserList);
 
 exports.default = _default;
-},{"react":"../../node_modules/react/index.js","react-redux":"../../node_modules/react-redux/es/index.js","../actions/action_creators/index":"src/actions/action_creators/index.js","shortid":"../../node_modules/shortid/index.js"}],"src/components/Filter.js":[function(require,module,exports) {
+},{"react":"../../../node_modules/react/index.js","react-redux":"../../../node_modules/react-redux/es/index.js","../actions/action_creators/index":"src/actions/action_creators/index.js","shortid":"../../../node_modules/shortid/index.js"}],"src/components/Filter.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -27772,6 +27766,8 @@ function (_React$Component) {
         value: this.props.gender,
         placeholder: "Gender"
       }, _react.default.createElement("option", null), _react.default.createElement("option", {
+        value: "all"
+      }, "all"), _react.default.createElement("option", {
         value: "male"
       }, "male"), _react.default.createElement("option", {
         value: "female"
@@ -27800,7 +27796,7 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 var _default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(Filter);
 
 exports.default = _default;
-},{"react":"../../node_modules/react/index.js","react-redux":"../../node_modules/react-redux/es/index.js","../actions/action_creators/index":"src/actions/action_creators/index.js","shortid":"../../node_modules/shortid/index.js"}],"src/components/App.js":[function(require,module,exports) {
+},{"react":"../../../node_modules/react/index.js","react-redux":"../../../node_modules/react-redux/es/index.js","../actions/action_creators/index":"src/actions/action_creators/index.js","shortid":"../../../node_modules/shortid/index.js"}],"src/components/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -27822,7 +27818,7 @@ var App = function App(props) {
 
 var _default = App;
 exports.default = _default;
-},{"react":"../../node_modules/react/index.js","./UserList":"src/components/UserList.js","./Filter":"src/components/Filter.js"}],"src/reducers/index.js":[function(require,module,exports) {
+},{"react":"../../../node_modules/react/index.js","./UserList":"src/components/UserList.js","./Filter":"src/components/Filter.js"}],"src/reducers/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -27851,6 +27847,12 @@ function reducer() {
       });
 
     case _actionConstants.FILTER_GENDER:
+      if (action.payload === "all") {
+        return _extends({}, state, {
+          filtered: false
+        });
+      }
+
       return _extends({}, state, {
         filterGender: state.results.filter(function (person) {
           return person.gender == action.payload;
@@ -27910,7 +27912,7 @@ var middleware = [_reduxThunk.default];
 var store = (0, _redux.createStore)(_index.default, (0, _redux.compose)(_redux.applyMiddleware.apply(void 0, middleware), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()));
 var _default = store;
 exports.default = _default;
-},{"redux":"../../node_modules/redux/es/redux.js","./reducers/index":"src/reducers/index.js","redux-thunk":"node_modules/redux-thunk/es/index.js"}],"src/index.js":[function(require,module,exports) {
+},{"redux":"../../../node_modules/redux/es/redux.js","./reducers/index":"src/reducers/index.js","redux-thunk":"node_modules/redux-thunk/es/index.js"}],"src/index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -27928,7 +27930,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 _reactDom.default.render(_react.default.createElement(_reactRedux.Provider, {
   store: _store.default
 }, _react.default.createElement(_App.default, null)), document.getElementById("root"));
-},{"react":"../../node_modules/react/index.js","react-dom":"../../node_modules/react-dom/index.js","react-redux":"../../node_modules/react-redux/es/index.js","./components/App":"src/components/App.js","./store":"src/store.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"../../../node_modules/react/index.js","react-dom":"../../../node_modules/react-dom/index.js","react-redux":"../../../node_modules/react-redux/es/index.js","./components/App":"src/components/App.js","./store":"src/store.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -27955,7 +27957,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65496" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50289" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -28097,5 +28099,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","src/index.js"], null)
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","src/index.js"], null)
 //# sourceMappingURL=/src.a2b27638.map

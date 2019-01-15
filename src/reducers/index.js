@@ -19,6 +19,9 @@ export default function reducer(state = initialState, action) {
         results: action.payload
       };
     case FILTER_GENDER:
+      if (action.payload === "all") {
+        return { ...state, filtered: false };
+      }
       return {
         ...state,
         filterGender: state.results.filter(
